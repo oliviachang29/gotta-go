@@ -1,0 +1,30 @@
+[
+  {
+    "address": "Victoria Manalo Draves Park",
+    "type": "Rec Park",
+    "private?": "No",
+    "provider": "SF Public Works",
+    "days": "Mon-Fri",
+    "hours": "8am to 4pm",
+    "area": "SoMa",
+    "accessibleForDisabilities": "Yes",
+    "uRL": null,
+    "description": null,
+    "rating": null,
+    "additionalAreaInfo": null
+  },
+  {
+    "address": "170 O'Farrell Street, 6th Floor",
+    "type": "Store",
+    "private?": "Yes",
+    "provider": "Macy's Union Square",
+    "days": "Mon-Sat",
+    "hours": "10am to 9pm",
+    "area": "Union Square",
+    "accessibleForDisabilities": "No",
+    "uRL": "https://diaroogle.com/toilets/137",
+    "description": "While many a Union Square shopper are hip to the utilitarian Cellar b-rooms, where pee-splattered seats and cloggy TP clumps seem to be the name of the game, those in the know take the time to head to the 6th floor where you will find a chandeliered, green marbled ladies room that someone has been given special instructions to keep in mint condition since the Art Deco era. Keep walking past the basic beige stalls to the vault-like toilet museum toward the back. The heavy mirrored doors seal you in to your small but completely private and practically sound-proof vintage cocoon. Dudes only get the beige stalls but still get the benefit of peace and quiet on the much less trafficked 6th floor than the touristy Cellar option.",
+    "rating": 4.33,
+    "additionalAreaInfo": "San Francisco, California, 94102"
+  }
+]
