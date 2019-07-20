@@ -2,18 +2,29 @@ const http = require('http');
 const express = require('express');
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 const nearestAddress = require('./lib/nearestAddress')
+const bodyParser = require('body-parser');
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: false }));
+
 app.post('/sms', (req, res) => {
-  const twiml = new MessagingResponse();
+	(async() => {
+	  console.log('before start');
 
-  twiml.message(nearestAddress());
+	  // get message body
+		const messageBody = req.body.Body;
 
-  // twiml.message('The Robots are coming! Head for the hills!');
+		const twiml = new MessagingResponse();
 
-  res.writeHead(200, {'Content-Type': 'text/xml'});
-  res.end(twiml.toString());
+		const response = await nearestAddress(messageBody);
+		twiml.message(response);
+
+		res.writeHead(200, {'Content-Type': 'text/xml'});
+		res.end(twiml.toString());
+	  
+	  console.log('after start');
+	})();
 });
 
 http.createServer(app).listen(1337, () => {

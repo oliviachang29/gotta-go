@@ -2,7 +2,7 @@
   {
     "address": "Victoria Manalo Draves Park",
     "type": "Rec Park",
-    "private?": "No",
+    "private": false,
     "provider": "SF Public Works",
     "days": "Mon-Fri",
     "hours": "8am to 4pm",
@@ -16,7 +16,7 @@
   {
     "address": "170 O'Farrell Street, 6th Floor",
     "type": "Store",
-    "private?": "Yes",
+    "private": true,
     "provider": "Macy's Union Square",
     "days": "Mon-Sat",
     "hours": "10am to 9pm",
