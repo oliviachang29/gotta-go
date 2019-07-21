@@ -1,6 +1,6 @@
-<img src="https://oliviachang.me/assets/images/playground/gotta-go@2x.png">
+# GottaGo
 
-## Housing crisis
+<img src="https://oliviachang.me/assets/images/playground/gotta-go@2x.png">
 
 San Francisco is in the midst of a housing crisis. While technology has brought riches to some, it's left a lot of longtime San Francisco residents unable to afford the rising cost of living. As a result, San Francisco's homeless population has been on the rise.
 
@@ -14,7 +14,7 @@ That's why I created Gotta Go. It's a text-message only service for finding near
 
 ## How it works
 
-1. User texts current location to 1 (805) TOILET3
+1. User texts current location
 2. Gotta Go responds with nearest 3 bathrooms
 3. User replies with the number of the bathroom
 4. Gotta Go sends more information on the selected bathroom, including the bathroom provider, hours of operation, and whether the bathroom is accessible for those with disabilities.
