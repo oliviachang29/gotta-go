@@ -1,7 +1,8 @@
 {
   "scripts": {
     "serve": "node server.js",
-    "deploy": "pm2 deploy ecosystem.config.js production setup"
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production"
   },
   "dependencies": {
     "@google/maps": "^0.5.5",
@@ -16,6 +17,7 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/preset-env": "^7.5.5",
+    "pm2": "^3.5.1"
   }
 }
