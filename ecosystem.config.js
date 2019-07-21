@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:oliviachang29/gotta-go.git',
       path: '/home/ubuntu/gotta-go',
-      'post-deploy': 'yarn && pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 }
