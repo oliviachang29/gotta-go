@@ -30,7 +30,7 @@ node server.js
 ngrok http 1337
 ```
 
-# Deployment
+## Deployment
 
 1. Push to Github
 2. `npm run deploy`

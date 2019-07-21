@@ -1,7 +1,7 @@
 const nearestAddress = require('./lib/nearestAddress')
 const moreInfo = require('./lib/moreInfo')
 const getDirections = require('./lib/getDirections')
-const currentLocation = "Powell and Market";
+const currentLocation = "Exploratorium San Francisco";
 const destination = "170 O'Farrell Street, 6th Floor"
 
 async function asyncCall() {
