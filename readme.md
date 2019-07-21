@@ -1,5 +1,7 @@
 # GottaGo
 
+Text your current location to 805TOILET3 to try it out.
+
 <img src="https://oliviachang.me/assets/images/playground/gotta-go@2x.png">
 
 San Francisco is in the midst of a housing crisis. While technology has brought riches to some, it's left a lot of longtime San Francisco residents unable to afford the rising cost of living. As a result, San Francisco's homeless population has been on the rise.
@@ -14,7 +16,7 @@ That's why I created Gotta Go. It's a text-message only service for finding near
 
 ## How it works
 
-1. User texts current location
+1. User texts current location to 805TOILET3 (don't need to convert to digits on iPhone)
 2. Gotta Go responds with nearest 3 bathrooms
 3. User replies with the number of the bathroom
 4. Gotta Go sends more information on the selected bathroom, including the bathroom provider, hours of operation, and whether the bathroom is accessible for those with disabilities.
@@ -23,7 +25,7 @@ That's why I created Gotta Go. It's a text-message only service for finding near
 
 ## How I built it
 
-Gotta Go is built with Node.js. Gotta Go uses Twilio to send and receive messages. I created my own API to get a list of bathrooms using a Google Sheet (https://docs.google.com/spreadsheets/d/14JH3oppOMSWAjrhFFULOevAbfFLYh1NdoDW_aIjlr70/edit?usp=sharing), and then I used the Google Directions and Distance Matrix APIs to determine the closest bathroom.
+Gotta Go is built with Node.js. Gotta Go uses Twilio to send and receive messages. I created my own API to get a list of bathrooms using a [Google Sheet](https://docs.google.com/spreadsheets/d/14JH3oppOMSWAjrhFFULOevAbfFLYh1NdoDW_aIjlr70/edit?usp=sharing), and then I used the Google Directions and Distance Matrix APIs to determine the closest bathroom.
 
 ## What's next for Gotta Go
 
