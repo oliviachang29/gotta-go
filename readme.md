@@ -23,11 +23,14 @@ That's why I created Gotta Go. It's a text-message only service for finding near
 5. User replies with “DIR”
 6. Gotta Go sends a list of directions to the selected toilet.
 
-## How I built it
+# Development
+```
+yarn
+node server.js
+ngrok http 1337
+```
 
-Gotta Go is built with Node.js. Gotta Go uses Twilio to send and receive messages. I created my own API to get a list of bathrooms using a [Google Sheet](https://docs.google.com/spreadsheets/d/14JH3oppOMSWAjrhFFULOevAbfFLYh1NdoDW_aIjlr70/edit?usp=sharing), and then I used the Google Directions and Distance Matrix APIs to determine the closest bathroom.
+# Deployment
 
-## What's next for Gotta Go
-
-* Expanding the list of the available bathrooms (there are 50 at the moment), and making Gotta Go available to other major cities.
-* Spreading the word!
+1. Push to Github
+2. `npm run deploy`
